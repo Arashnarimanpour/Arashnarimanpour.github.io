@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arash Narimanpour | Cybersecurity Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="background-grid"></div>
+  <div class="glow glow-one"></div>
+  <div class="glow glow-two"></div>
+
+  <header class="navbar">
+    <div class="nav-container">
+      <a class="brand" href="#home">
+        <span class="brand-icon">A</span>
+        <span>Arash Narimanpour</span>
+      </a>
+
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="home" class="hero">
+      <div class="hero-content">
+
+        <div class="status-badge">
+          <span class="status-dot"></span>
+          Cybersecurity Portfolio
+        </div>
+
+        <p class="hero-small">SOC • Detection Engineering • DFIR</p>
+
+        <h1>
+          Security Engineering
+          <span class="gradient-text">Driven by Detection.</span>
+        </h1>
+
+        <p class="hero-description">
+          I work on Security Operations, detection engineering,
+          threat hunting, digital forensics, Splunk ES, and security automation.
+          My goal is to transform raw security telemetry into actionable detections.
+        </p>
+
+        <div class="hero-buttons">
+          <a
+            class="btn primary"
+            href="https://github.com/Arashnarimanpour"
+            target="_blank"
+          >
+            View GitHub
+          </a>
+
+          <a class="btn secondary" href="#projects">
+            Explore Projects
+          </a>
+        </div>
+
+        <div class="terminal-card">
+          <div class="terminal-header">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <div class="terminal-body">
+            <p><span class="terminal-green">$</span> whoami</p>
+            <p class="terminal-result">Arash Narimanpour</p>
+
+            <p><span class="terminal-green">$</span> cat focus.txt</p>
+            <p class="terminal-result">
+              SOC | Detection Engineering | DFIR | Threat Hunting
+            </p>
+
+            <p><span class="terminal-green">$</span> status</p>
+            <p class="terminal-result blinking">Monitoring threats...</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="about" class="section">
+      <div class="section-heading">
+        <span>01.</span>
+        <h2>About Me</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="glass-card">
+          <h3>Security Operations</h3>
+          <p>
+            Focused on monitoring, investigation, incident response,
+            and improving visibility across Windows, Linux, endpoint,
+            network, and application telemetry.
+          </p>
+        </div>
+
+        <div class="glass-card">
+          <h3>Detection Engineering</h3>
+          <p>
+            Building and tuning detections using Splunk SPL, Sigma,
+            Sysmon, Linux Auditd, and MITRE ATT&CK.
+          </p>
+        </div>
+
+        <div class="glass-card">
+          <h3>DFIR</h3>
+          <p>
+            Working with memory and disk forensic tooling including
+            Volatility 3, Autopsy, KAPE, Plaso, and related techniques.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <span>02.</span>
+        <h2>Technology Stack</h2>
+      </div>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-number">01</div>
+          <h3>SIEM & SOC</h3>
+
+          <div class="tags">
+            <span>Splunk</span>
+            <span>Splunk ES</span>
+            <span>Splunk SOAR</span>
+            <span>Wazuh</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-number">02</div>
+          <h3>Detection</h3>
+
+          <div class="tags">
+            <span>Sigma</span>
+            <span>Sysmon</span>
+            <span>Auditd</span>
+            <span>MITRE ATT&CK</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-number">03</div>
+          <h3>DFIR</h3>
+
+          <div class="tags">
+            <span>Volatility 3</span>
+            <span>Autopsy</span>
+            <span>KAPE</span>
+            <span>Plaso</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-number">04</div>
+          <h3>Automation</h3>
+
+          <div class="tags">
+            <span>Python</span>
+            <span>Bash</span>
+            <span>PowerShell</span>
+            <span>SOAR</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="projects" class="section">
+
+      <div class="section-heading">
+        <span>03.</span>
+        <h2>Featured Projects</h2>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="folder-icon">⌁</span>
+            <span class="project-type">Detection Engineering</span>
+          </div>
+
+          <h3>Splunk Queries</h3>
+
+          <p>
+            Collection of detection and threat-hunting SPL queries
+            for Windows, Linux, Sysmon, PowerShell, and Splunk ES.
+          </p>
+
+          <div class="project-tags">
+            <span>Splunk</span>
+            <span>SPL</span>
+            <span>Detection</span>
+          </div>
+
+          <a
+            href="https://github.com/Arashnarimanpour/Splunk-Queries"
+            target="_blank"
+          >
+            View Repository →
+          </a>
+        </article>
+
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="folder-icon">⌁</span>
+            <span class="project-type">Automation</span>
+          </div>
+
+          <h3>Python Code</h3>
+
+          <p>
+            Python experiments and scripts focused on automation
+            and cybersecurity engineering.
+          </p>
+
+          <div class="project-tags">
+            <span>Python</span>
+            <span>Automation</span>
+            <span>Security</span>
+          </div>
+
+          <a
+            href="https://github.com/Arashnarimanpour/Python-code"
+            target="_blank"
+          >
+            View Repository →
+          </a>
+        </article>
+
+
+        <article class="project-card">
+          <div class="project-top">
+            <span class="folder-icon">⌁</span>
+            <span class="project-type">Threat Intelligence</span>
+          </div>
+
+          <h3>Cyber Security Feeds</h3>
+
+          <p>
+            Security resources and feeds for threat intelligence
+            monitoring and security research.
+          </p>
+
+          <div class="project-tags">
+            <span>CTI</span>
+            <span>Feeds</span>
+            <span>Research</span>
+          </div>
+
+          <a
+            href="https://github.com/Arashnarimanpour/Cyber-Security-Feeds"
+            target="_blank"
+          >
+            View Repository →
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+
+    <section class="section workflow-section">
+
+      <div class="section-heading">
+        <span>04.</span>
+        <h2>Detection Engineering Workflow</h2>
+      </div>
+
+      <div class="workflow">
+
+        <div class="workflow-item">
+          <span>01</span>
+          <h3>Research</h3>
+          <p>Understand attacker behavior and TTPs.</p>
+        </div>
+
+        <div class="workflow-line"></div>
+
+        <div class="workflow-item">
+          <span>02</span>
+          <h3>Telemetry</h3>
+          <p>Identify the required data source.</p>
+        </div>
+
+        <div class="workflow-line"></div>
+
+        <div class="workflow-item">
+          <span>03</span>
+          <h3>Detection</h3>
+          <p>Build SPL, Sigma, or behavioral logic.</p>
+        </div>
+
+        <div class="workflow-line"></div>
+
+        <div class="workflow-item">
+          <span>04</span>
+          <h3>Tuning</h3>
+          <p>Reduce false positives and improve fidelity.</p>
+        </div>
+
+        <div class="workflow-line"></div>
+
+        <div class="workflow-item">
+          <span>05</span>
+          <h3>Response</h3>
+          <p>Operationalize for SOC investigation.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="contact" class="section contact-section">
+
+      <div class="contact-box">
+
+        <p class="contact-label">04. CONTACT</p>
+
+        <h2>Connect With Me</h2>
+
+        <p>
+          Interested in cybersecurity, detection engineering,
+          threat hunting, DFIR, and security automation.
+        </p>
+
+        <div class="contact-buttons">
+
+          <a
+            class="btn primary"
+            href="https://github.com/Arashnarimanpour"
+            target="_blank"
+          >
+            GitHub
+          </a>
+
+          <a
+            class="btn secondary"
+            href="https://www.linkedin.com/in/arash-narimanpour/"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+    <p>
+      Built by Arash Narimanpour • Cybersecurity Portfolio
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
